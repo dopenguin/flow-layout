@@ -10,3 +10,17 @@ body {
 }
 
 /* Add styles here! */
+
+:root {
+  --base-spacing: 8px;
+  --primary: hsl(160deg, 100%, 30%);
+  --secondary-light: hsl(45deg, 100%, 50%);
+  --secondary-dark: hsl(45deg, 100%, 40%);
+  --black: hsl(0deg, 0%, 0%);
+  --very-dark-gray: hsl(0deg, 0%, 10%);
+  --dark-gray: hsl(0deg, 0%, 30%);
+  --medium-gray: hsl(0deg, 0%, 40%);
+  --light-gray: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+}
+
