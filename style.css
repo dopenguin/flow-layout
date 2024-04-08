@@ -24,3 +24,63 @@ body {
   --white: hsl(0deg, 0%, 100%);
 }
 
+.max-width-wrapper {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc(var(--base-spacing) * 3);
+  padding-right: calc(var(--base-spacing) * 3);
+}
+
+.intro-chunk {
+  padding-top: calc(12 * var(--base-spacing));
+  padding-bottom: calc(8 * var(--base-spacing));
+  max-width: 415px;
+}
+
+.title {
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+section {
+  padding-top: calc(9 * var(--base-spacing));
+  padding-bottom: calc(9 * var(--base-spacing));
+}
+
+.card {
+  background-color: var(--white);
+  border-bottom: var(--base-spacing) solid var(--light-gray);
+  padding: calc(var(--base-spacing) * 3);
+  margin-left: calc(var(--base-spacing) * -3);
+  margin-right: calc(var(--base-spacing) * -3);
+}
+
+.indented-heading {
+  width: fit-content;
+  height: 60px;
+  background-color: var(--secondary-light);
+  border-bottom: var(--base-spacing) solid var(--secondary-dark);
+  margin-top: calc(-2 * var(--base-spacing));
+  margin-left: calc(-4 * var(--base-spacing));
+  padding: calc(1.5 * var(--base-spacing)) calc(4 * var(--base-spacing)) calc(2 * var(--base-spacing));
+}
+
+header {
+  background-color: var(--white);
+  border-bottom: var(--base-spacing) solid var(--light-gray);
+}
+
+main {
+  background-color: var(--medium-gray);
+}
+
+strong {
+  color: var(--primary)
+}
