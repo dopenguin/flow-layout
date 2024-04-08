@@ -64,7 +64,6 @@ section {
 
 .indented-heading {
   width: fit-content;
-  height: 60px;
   background-color: var(--secondary-light);
   border-bottom: var(--base-spacing) solid var(--secondary-dark);
   margin-top: calc(-2 * var(--base-spacing));
